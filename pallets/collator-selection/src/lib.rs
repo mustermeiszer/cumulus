@@ -239,6 +239,13 @@ pub mod pallet {
 			<DesiredCandidates<T>>::put(&self.desired_candidates);
 			<CandidacyBond<T>>::put(&self.candidacy_bond);
 			<Invulnerables<T>>::put(&self.invulnerables);
+
+			log::info!(
+				"Number of collators in the set after building genesis config {}",
+				<Invulnerables<T>>::get().len()
+			);
+
+
 		}
 	}
 
@@ -469,6 +476,13 @@ pub mod pallet {
 				"assembling new collators for new session {} at #{:?}",
 				index,
 				<frame_system::Pallet<T>>::block_number(),
+			);
+
+			frame_support::print("Debug logging is working");
+
+			log::info!(
+				"Number of collators in the set {}",
+				Self::invulnerables().len()
 			);
 
 			let candidates = Self::candidates();
