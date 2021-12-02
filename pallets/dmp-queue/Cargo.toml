@@ -18,8 +18,8 @@ frame-support = { git = "https://github.com/mustermeiszer/substrate", default-fe
 frame-system = { git = "https://github.com/mustermeiszer/substrate", default-features = false, branch = "polkadot-v0.9.12" }
 
 # Polkadot Dependencies
-xcm = { git = "https://github.com/mustermeiszer/substrate", default-features = false, branch = "release-v0.9.12" }
-xcm-executor = { git = "https://github.com/mustermeiszer/substrate", default-features = false, branch = "release-v0.9.12" }
+xcm = { git = "https://github.com/mustermeiszer/polkadot", default-features = false, branch = "release-v0.9.12" }
+xcm-executor = { git = "https://github.com/mustermeiszer/polkadot", default-features = false, branch = "release-v0.9.12" }
 
 # Cumulus Dependencies
 cumulus-primitives-core = { path = "../../primitives/core", default-features = false }

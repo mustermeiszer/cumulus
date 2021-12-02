@@ -14,7 +14,7 @@ sp-runtime = { git = "https://github.com/mustermeiszer/substrate", default-featu
 frame-support = { git = "https://github.com/mustermeiszer/substrate", default-features = false, branch = "polkadot-v0.9.12" }
 frame-system = { git = "https://github.com/mustermeiszer/substrate", default-features = false, branch = "polkadot-v0.9.12" }
 
-xcm = { git = "https://github.com/mustermeiszer/substrate", default-features = false, branch = "release-v0.9.12" }
+xcm = { git = "https://github.com/mustermeiszer/polkadot",  default-features = false, branch = "release-v0.9.12"}
 
 cumulus-primitives-core = { path = "../../../primitives/core", default-features = false }
 cumulus-pallet-xcm = { path = "../../../pallets/xcm", default-features = false }

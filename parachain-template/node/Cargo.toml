@@ -88,8 +88,8 @@ cumulus-primitives-core = { path = "../../primitives/core" }
 cumulus-primitives-parachain-inherent = { path = "../../primitives/parachain-inherent" }
 
 # Polkadot dependencies
-polkadot-cli = { git = "https://github.com/mustermeiszer/substrate", branch = "release-v0.9.12" }
-polkadot-parachain = { git = "https://github.com/mustermeiszer/substrate", branch = "release-v0.9.12" }
-polkadot-primitives = { git = "https://github.com/mustermeiszer/substrate", branch = "release-v0.9.12" }
-polkadot-service = { git = "https://github.com/mustermeiszer/substrate", branch = "release-v0.9.12" }
-polkadot-test-service = { git = "https://github.com/mustermeiszer/substrate", branch = "release-v0.9.12" }
+polkadot-cli = { git = "https://github.com/mustermeiszer/polkadot", branch = "release-v0.9.12" }
+polkadot-parachain = { git = "https://github.com/mustermeiszer/polkadot", branch = "release-v0.9.12" }
+polkadot-primitives = { git = "https://github.com/mustermeiszer/polkadot", branch = "release-v0.9.12" }
+polkadot-service = { git = "https://github.com/mustermeiszer/polkadot", branch = "release-v0.9.12" }
+polkadot-test-service = { git = "https://github.com/mustermeiszer/polkadot", branch = "release-v0.9.12" }
